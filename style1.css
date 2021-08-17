@@ -1,0 +1,37 @@
+body{
+    margin:0%;
+    min-height:100%;
+}
+.row1{
+    display: block;
+    overflow: hidden;
+}
+
+.info{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 5.88%;
+}
+.helpline{
+    display:flex;
+}
+.helpline .support{
+    width:50%;
+    height:400px;
+    border: 1px solid white;
+    font-family: cosmic sans-serif;
+    text-align: center ;
+    color: #14168cfd;
+    padding: 10px;
+}
+.helpline .health{
+    width:50%;
+    height:400px;
+    border: 1px solid white;
+    font-family: cosmic sans-serif;
+    text-align: center ;
+    color: #14168cfd;
+    padding: 10px;
+}

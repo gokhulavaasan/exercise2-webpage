@@ -1,0 +1,137 @@
+#navi {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    margin-left: 4%;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 5px;
+    text-align: center;
+    text-indent: 1.3cm;
+}
+
+#navi li {
+    float: left;
+}
+
+.nav img {
+    image-rendering: optimizeQuality;
+    float:left;
+    padding-bottom: 3%;
+    width: 8%;
+    height: 8%;
+
+}
+
+
+li a:hover {
+    color: rgb(122, 120, 120);
+}
+
+.nav1 a {
+    color: rgb(51, 50, 50);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+
+.dropdown-content a:hover,
+.dropdown:hover {
+    color: rgba(0, 0, 0, 0.493);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+}
+
+.dropdown-content {
+    
+    width: 190px;
+    box-shadow: 5px 5px 20px #2e2e2e;
+    background-color: #f2f2f2;
+    display: none;
+    list-style-type: none;
+    position: absolute;
+}
+
+.class{
+    float: left;
+    width: 50%;
+}
+
+.galleryin{
+    display: block;
+    overflow: hidden;
+}
+
+.gallery{
+    margin: 5% 5%;
+    display: block;
+    overflow: hidden;
+    height: auto;
+}
+
+.right{
+    float: right;
+    width: 50%;
+}
+.left{
+    float:left;
+    width: 50%;
+}
+.textin1{
+    font-size: 27px;
+    
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+}
+.img1 {
+    text-align: center;
+}
+
+#or {
+    color: rgb(255, 72, 0);
+    font-size: 40px;
+}
+table {
+    margin-left: 5%;
+    text-align: center;
+    padding: 30px;
+}
+
+table td {
+    padding: 30px;
+}
+
+
+.foot{
+    
+    background-color: black;
+    color: white;
+    margin: 0;
+    display: block;
+    clear: both;
+    padding: 30px 30px;
+    font-family: Montserrat;
+    text-align: center;
+}
+.foot a{
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+}
+.foot li a
+{
+    padding-left: 0%;
+    padding: 10px 15px;
+}
+.foot li a:hover{
+    color:red;
+}
+.foot li{
+    display: inline;
+
+}
