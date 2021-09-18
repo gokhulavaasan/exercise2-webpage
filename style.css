@@ -1,60 +1,74 @@
-#navi {
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 20px;
-    margin-left: 4%;
-    list-style-type: none;
-    overflow: hidden;
-    padding: 5px;
-    text-align: center;
-    text-indent: 1.3cm;
-}
+body
+{
+    background: #f2f2f2d0; 
 
-#navi li {
-    float: left;
 }
-
-.nav img {
-    image-rendering: optimizeQuality;
+.menu-bar
+{
+   text-align:center; 
+   background:#6495ED;
+}
+.nav-logo
+{
     float:left;
-    padding-bottom: 3%;
-    width: 8%;
-    height: 8%;
-
+    padding-top:20px;
+    padding-left:20px;
 }
-
-
-li a:hover {
-    color: rgb(122, 120, 120);
+.menu-bar ul
+{
+    display:inline-flex;
+    list-style:none;
 }
-
-.nav1 a {
-    color: rgb(51, 50, 50);
-    font-family: 'Courier New', Courier, monospace;
-    text-decoration: none;
+.menu-bar ul li
+{
+    width:120px;
+    margin:15px;
+    padding:15px;
 }
-
-
-.dropdown-content a:hover,
-.dropdown:hover {
-    color: rgba(0, 0, 0, 0.493);
+.menu-bar ul li a
+{
+    text-decoration:none;
+    color:white;
 }
-
-.dropdown:hover .dropdown-content {
-    display: block;
+.active, .menu-bar ul li:hover
+{
+    background:#D3D3D3;
+    border-radius:3px;
 }
-
-.dropdown-content a {
-    text-decoration: none;
+.sub-menu
+{
+    display:none;
 }
-
-.dropdown-content {
+.menu-bar ul li:hover .sub-menu
+{
+    display:block;
+    position:absolute;
+    background:#A9A9A9;
+    margin-top:15px;
+    margin-left:-15px;
     
-    width: 190px;
-    box-shadow: 5px 5px 20px #2e2e2e;
-    background-color: #f2f2f2;
-    display: none;
-    list-style-type: none;
-    position: absolute;
+}
+.menu-bar ul li:hover .sub-menu ul
+{
+    display:block;
+    margin:10px;
+}
+.menu-bar ul li:hover .sub-menu ul li
+{
+    width:150px;
+    padding:10px;
+    border-bottom:1px dotted #fff;
+    background:transparent;
+    border-radius:0;
+    text-align:left;
+}
+.menu-bar ul li:hover .sub-menu ul li:last-child
+{
+    border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu ul li a:hover
+{
+    color:#b3ff00;
 }
 
 .class{
